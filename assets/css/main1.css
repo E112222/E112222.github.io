@@ -1260,8 +1260,8 @@ body {
 .about--lockup .mode>div1{
     z-index: 1;
     position: absolute;
-    top: -370px;
-    left: -585px;
+    top: -425px;
+    left: -685px;
     bottom: 0;
     right: 0;
     border: 5px solid #0f33ff;
