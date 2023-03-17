@@ -1382,7 +1382,7 @@ body {
     .about--lockup .mode>div1{
         z-index: 1;
         position: fixed;
-        top: -215px;
+        top: -175px;
         left: -220px;
         bottom: 0;
         right: 0;
