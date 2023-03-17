@@ -1152,7 +1152,7 @@ body {
     background-position: center center;
     background-size: contain;
     width:100%;
-    height:60%;
+    height: 500px;;
 }
 
 .about--lockup .mode--information p,.about--lockup .mode--information a {
@@ -1231,9 +1231,9 @@ body {
 }
 
 .about--lockup .mode>divcpf{
-    position: absolute;
-    top:135px;
-    left:45px;
+    position: relative;
+    top:-100px;
+    left:0px;
     /*right:-500px;*/
     color:white;
     background-color: #444;
@@ -1260,8 +1260,8 @@ body {
 .about--lockup .mode>div1{
     z-index: 1;
     position: absolute;
-    top: -425px;
-    left: -685px;
+    top: -380px;
+    left: -610px;
     bottom: 0;
     right: 0;
     border: 5px solid #0f33ff;
@@ -1297,7 +1297,7 @@ body {
    
 .about--lockup .mode>div1.active {
       z-index: 2;
-      transform: scale(0.65);
+      transform: scale(0.87, 0.65);
       margin: 0;
       top: 15px;
       left: 0px;
@@ -1333,9 +1333,9 @@ body {
 
     .about--lockup .mode>div1.active {
         z-index: 2;
-        transform: scale(0.65);
+        transform: scale(0.85,1);
         margin: 0;
-        top: 195px;
+        top: 0px;
         left: 0px;
         bottom: 0;
         right: 0;}
@@ -1357,9 +1357,9 @@ body {
     }
 
     .about--lockup .mode>divcpf{
-        position: absolute;
-        top:0%;
-        left:40%;
+        position: relative;
+        top: -150px;;
+        left:0px;
         /*right:-500px;*/
         color:white;
         background-color: #444;
