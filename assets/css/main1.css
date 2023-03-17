@@ -1259,9 +1259,9 @@ body {
 /*--------- DIV1 Cloitre --------------*/
 .about--lockup .mode>div1{
     z-index: 1;
-    position: fixed;
-    top: -425px;
-    left: -680px;
+    position: absolute;
+    top: -370px;
+    left: -585px;
     bottom: 0;
     right: 0;
     border: 5px solid #0f33ff;
