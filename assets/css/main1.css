@@ -1381,8 +1381,8 @@ body {
 
     .about--lockup .mode>div1{
         z-index: 1;
-        position: fixed;
-        top: -175px;
+        position: absolute;
+        top: -140px;
         left: -220px;
         bottom: 0;
         right: 0;
