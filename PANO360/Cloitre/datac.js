@@ -45,7 +45,7 @@ var APP_DATA = {
             "yaw": 1.6684512403019838,
             "pitch": 0.1555408192745773,
             "title": "Rico",
-            "text": "Current's 70-170 AN 222"
+            "text": "Current's 71-170 AN 222"
           }
         ]
       },
@@ -100,7 +100,7 @@ var APP_DATA = {
             "yaw": 0.10036136911062599,
             "pitch": 0.33903270880067105,
             "title": "Rico",
-            "text": "Current's 70-170 AN 222"
+            "text": "Current's 71-170 AN 222"
           },
           {
             "yaw": 0.5965947173990891,
