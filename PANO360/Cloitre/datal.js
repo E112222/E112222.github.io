@@ -34,7 +34,7 @@ var APP_DATA = {
             },
             "linkHotspots": [
               {
-                "yaw": 0.9248184718710597,
+                "yaw": 6,
                 "pitch": 0.5677199155987687,
                 "rotation": 0,
                 "target": "0-cloitre"
@@ -101,6 +101,12 @@ var APP_DATA = {
             "pitch": 0.1555408192745773,
             "title": "Rico",
             "text": "Current's 71-170 AN 222"
+          },
+          {
+            "yaw": -1.1,
+            "pitch": 0.1555408192745773,
+            "title": "Zabois",
+            "text": "<div  <a href='' ><img src='./img/ThuysseZabois.png' width=500px height=800px ></div>"
           }
         ]
       },
