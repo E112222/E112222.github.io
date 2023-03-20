@@ -167,7 +167,7 @@ var APP_DATA = {
             "yaw": 0.5965947173990891,
             "pitch": -0.46382144198510034,
             "title": "Clocheton",
-            "text": "<div  <a href='' ><img src='./img/ThuysseClocheton.png'  ></div>"
+            "text": "<div  <a href='' ><img src='./img/ThuysseClocheton.png' width=500px ></div>"
           },
           {
             "yaw": -3.0945363851999037,
@@ -179,7 +179,7 @@ var APP_DATA = {
             "yaw": -2.3297121010601316,
             "pitch": 0.20868188118821813,
             "title": "POV d'antan",
-            "text": "<div  <a href='' ><img src='./img/PovCloitre0.png'  ></div>"
+            "text": "<div  <a href='' ><img src='./img/PovCloitre0.png' width=500px  ></div>"
           }
         ]
       },
