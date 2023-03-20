@@ -48,7 +48,7 @@ var APP_DATA = {
             "text": "Current's 71-170 AN 222"
           },
           {
-            "yaw": -1.1,
+            "yaw": -0.35,
             "pitch": 0.1555408192745773,
             "title": "Zabois",
             "text": "<div  <a href='' ><img src='./img/ThuysseZabois.png' width=500px height=800px ></div>"
@@ -163,7 +163,7 @@ var APP_DATA = {
         },
         "linkHotspots": [
           {
-            "yaw": 6,
+            "yaw": 5.5,
             "pitch": 0.5677199155987687,
             "rotation": 0,
             "target": "0-cloitre"
