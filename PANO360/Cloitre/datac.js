@@ -125,6 +125,12 @@ var APP_DATA = {
             "pitch": 0.20868188118821813,
             "title": "POV d'antan",
             "text": "<div  <a href='' ><img src='./img/PovCloitre0.png' width=500px  ></div>"
+          },
+          {
+            "yaw": -2,
+            "pitch": -0.1,
+            "title": "Lettres",
+            "text": "<div  <a href='' ><img src='./img/TL.png' width=500px  ></div>"
           }
         ]
       },
