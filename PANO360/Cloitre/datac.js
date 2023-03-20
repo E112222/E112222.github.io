@@ -118,7 +118,7 @@ var APP_DATA = {
             "yaw": -3.0945363851999037,
             "pitch": 0.27868188118821813,
             "title": "TT",
-            "text": "<div  <a href='' ><img src='./img/ThuysseTT.png'  ></div>"
+            "text": "<div  <a href='' ><img src='./img/TTT.png' width=500px  ></div>"
           },
           {
             "yaw": -2.3297121010601316,
