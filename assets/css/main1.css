@@ -1388,7 +1388,7 @@ body {
         right: 0;
         border: 5px solid #0f33ff;
         background-color: #333;
-        transform: scale(0.01);
+        transform: scale(0.03);
         transition: transform .3s, margin .1s;
         transition-delay: .01s;
         box-shadow: 0px 0px 40px rgba(0,0,0,.5);
@@ -1549,7 +1549,13 @@ body {
 .hire h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
-    text-align: center
+    text-align: center;
+
+}
+
+.hire p {
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 .work-request {
