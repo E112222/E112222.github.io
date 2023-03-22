@@ -1145,7 +1145,7 @@ body {
 
 .visite--lockup .mode>divcpf{
     position: relative;
-    top:-100px;
+    top:550px;
     left:0px;
     /*right:-500px;*/
     color:white;
@@ -1216,19 +1216,10 @@ body {
       left: 0px;
       bottom: 0;
       right: 0;}
+
 .visite--lockup .mode>div1.active::before {
         display: none;
       } 
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 910px) {
     
