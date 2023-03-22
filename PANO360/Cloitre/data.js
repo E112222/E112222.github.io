@@ -57,25 +57,25 @@ var APP_DATA = {
           "yaw": 0.5965947173990891,
           "pitch": -0.46382144198510034,
           "title": "Clocheton",
-          "text": "<div  <a href='' ><img src='./img/ThuysseClocheton.png' width=500px  ></div>"
+          "text": "<div  <a href='' ><img src='./img/TClocheton.png' width=480px  ></div>"
         },
         {
           "yaw": -3.0945363851999037,
           "pitch": 0.27868188118821813,
           "title": "TT",
-          "text": "<div  <a href='' ><img src='./img/TTT.png' width=500px ></div>"
+          "text": "<div  <a href='' ><img src='./img/TTT.png' width=480px ></div>"
         },
         {
           "yaw": -2.3297121010601316,
           "pitch": 0.20868188118821813,
           "title": "POV d'antan",
-          "text": "<div  <a href='' ><img src='./img/PovCloitre0.png' width=500px  ></div>"
+          "text": "<div  <a href='' ><img src='./img/TCloitre.png' width=480px  ></div>"
         },
         {
           "yaw": -2,
           "pitch": -0.1,
           "title": "Lettres",
-          "text": "<div  <a href='' ><img src='./img/TL.png' width=500px  ></div>"
+          "text": "<div  <a href='' ><img src='./img/TL.png' width=480px  ></div>"
         }
       ]
     },
@@ -123,14 +123,14 @@ var APP_DATA = {
         {
           "yaw": 1.6684512403019838,
           "pitch": 0.1555408192745773,
-          "title": "Rico",
-          "text": "Current's 71-170 AN 222"
+          "title": "Biaude",
+          "text": "<div  <a href='' ><img src='./img/TBiaude.png' width=480px  ></div>"
         },
         {
           "yaw": -0.35,
           "pitch": 0.1555408192745773,
           "title": "Zabois",
-          "text": "<div  <a href='' ><img src='./img/ThuysseZabois.png' width=500px height=800px ></div>"
+          "text": "<div  <a href='' ><img src='./img/TZabois.png' width=480px  ></div>"
         }
       ]
     },
@@ -175,17 +175,12 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": [
-        {
-          "yaw": 1.8888024591151238,
-          "pitch": 0.30242193627141845,
-          "title": "Lourdes",
-          "text": "<div  <a href='' ><img src='./img/ThuysseAlt.png'  ></div>"
-        },
+        
         {
           "yaw": -1.4701109174131055,
           "pitch": 0.13967914766048573,
-          "title": "Les Zi-Stoire",
-          "text": "Ekip"
+          "title": "Ekip",
+          "text": "Current's 71-170 AN 222 & Labiz 152-53 AN 222" 
         }
       ]
     }
