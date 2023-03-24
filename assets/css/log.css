@@ -1,0 +1,195 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	align-items: center;
+	background-color: #0c0c0c;
+	display: flex;
+	flex-direction: column;
+	min-height: 600px;
+	justify-content: center;
+}
+
+#Content img{
+	position:relative;
+	left:40%;
+	width:20%;
+	height:30%
+}
+
+#Content{
+	background-color: #282828;
+	box-shadow: 0 0 200px 10px #8C8681;
+	color: #7E7E7E;
+	font-family: "Open Sans";
+	height: 500px;
+	padding: 20px;
+	width: 800px;
+}
+
+@media(max-width: 390px) {
+    #Content{
+		background-color: #282828;
+		box-shadow: 0 0 200px 10px #8C8681;
+		color: #7E7E7E;
+		font-family: "Open Sans";
+		height: 60%;
+		padding: 10px;
+		width: 320px;
+}
+}
+
+@media(max-width: 800px) and (min-width:390px) {
+    #Content{
+		background-color: #282828;
+		box-shadow: 0 0 200px 10px #8C8681;
+		color: #7E7E7E;
+		font-family: "Open Sans";
+		height: 60%;
+		padding: 10px;
+		width: 400px;
+}
+}
+
+#Content h1{
+	font-size: 3em;
+	font-weight: bold;
+	color:#FFFFFF;
+	padding: 0px;
+}
+
+#Content p{
+	border-bottom: 2px solid #666A73;
+	font-size: 1.5em;
+	color:#DADADA
+	padding: 0px;
+}
+
+#Content div.InputBox{
+	align-items: center;
+	display: flex;
+	font-size: 1.25em;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#Content Div.InputBox label{
+	padding-right: 20px;
+}
+
+#Content Div.InputBox input{
+	padding: 10px;
+	margin-right: 20px;
+	width: 100px;
+}
+
+#Content Div.InputBox Button{
+	background-color: transparent;
+	border: 2px solid #666A73;
+	cursor: pointer;
+	outline: none;
+	padding: 10px;
+	width: 100px;
+	
+	transition: background-color 1s, color .5s;
+}
+
+#Content Div.InputBox Button:hover{
+	background-color: #666A73;
+	color: #fff;
+}
+
+.FlashMessage{
+	background-color: rgba(0,0,0,.5);
+	position: fixed;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	transform: scale(0);
+	width: 100vw;
+}
+
+.FlashMessage .Modal{
+	align-items: center;
+	background-color: #0c0c0c;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 300px;
+	padding: 20px;
+	position: absolute;
+	left: calc((100vw - 500px) / 2);
+	top: calc((100vh - 300px) / 2);	
+	transform: scale(0);
+	width: 500px;
+	
+	transition: transform .5s;
+}
+
+.FlashMessage .Modal h1{
+	font-family: "Open Sans";
+	color:#FFFFFF;
+	font-size: 2em;
+}
+
+.FlashMessage .Modal Button{
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 1.25em;
+	outline: none;
+	padding: 10px;
+	width: 100px;
+	
+	transition: background-color .5s, color .25s;
+}
+
+.FlashMessage .Modal>a{
+	background-color: transparent;
+	text-decoration:none;
+	cursor: pointer;
+	font-size: 1.25em;
+	outline: none;
+	color:#FFFFFF;
+	padding: 10px;
+	width: 100px;
+	
+	transition: background-color .5s, color .25s;
+}
+
+.FlashMessage.Open{
+	transform: scale(1);
+}
+
+.FlashMessage.Open .Modal{
+	transform: scale(1);
+}
+
+.FlashMessage#GoodMsg{
+	color: #0c0c0c;
+}
+
+.FlashMessage#BadMsg{
+	color: #0c0c0c;
+}
+
+#GoodBtn{
+	border: 2px solid #40411E;
+	color: #40411E;
+}
+
+#GoodBtn:hover{
+	background-color: #40411E;
+	color: #F2EDE4;
+}
+
+#BadBtn{
+	border: 2px solid #C03000;
+	color: #C03000;
+}
+
+#BadBtn:hover{
+	background-color: #C03000;
+	color: #F2EDE4;
+}
