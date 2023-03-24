@@ -22,7 +22,7 @@ html{
 	background-color: #282828;
 	box-shadow: 0 0 200px 10px #8C8681;
 	color: #7E7E7E;
-	font-family: "Open Sans";
+	font-family: "Montserrat";
 	height: 500px;
 	padding: 20px;
 	width: 800px;
@@ -33,7 +33,7 @@ html{
 		background-color: #282828;
 		box-shadow: 0 0 200px 10px #8C8681;
 		color: #7E7E7E;
-		font-family: "Open Sans";
+		font-family: "Montserrat";
 		height: 60%;
 		padding: 10px;
 		width: 320px;
@@ -45,7 +45,7 @@ html{
 		background-color: #282828;
 		box-shadow: 0 0 200px 10px #8C8681;
 		color: #7E7E7E;
-		font-family: "Open Sans";
+		font-family: "Montserrat";
 		height: 60%;
 		padding: 10px;
 		width: 400px;
@@ -129,7 +129,7 @@ html{
 }
 
 .FlashMessage .Modal h1{
-	font-family: "Open Sans";
+	font-family: "Monteserrat";
 	color:#FFFFFF;
 	font-size: 2em;
 }
