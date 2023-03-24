@@ -13,9 +13,10 @@ html{
 
 #Content img{
 	position:relative;
-	left:40%;
-	width:20%;
-	height:30%
+	left:35%;
+	top:15px;
+	width:30%;
+	height:40%
 }
 
 #Content{
@@ -36,8 +37,15 @@ html{
 		font-family: "Montserrat";
 		height: 60%;
 		padding: 10px;
-		width: 320px;
-}
+		width: 320px;}
+	
+	#Content img{
+		position:relative;
+		left:30%;
+		top:20px;
+		width:40%;
+		height:30%
+	}
 }
 
 @media(max-width: 800px) and (min-width:390px) {
@@ -49,7 +57,14 @@ html{
 		height: 60%;
 		padding: 10px;
 		width: 400px;
-}
+	}
+	#Content img{
+		position:relative;
+		left:30%;
+		top:20px;
+		width:40%;
+		height:30%
+	}
 }
 
 #Content h1{
@@ -62,7 +77,7 @@ html{
 #Content p{
 	border-bottom: 2px solid #666A73;
 	font-size: 1.5em;
-	color:#DADADA
+	color:#a8a8a8;
 	padding: 0px;
 }
 
