@@ -1299,6 +1299,9 @@ $(document).ready(function() {
     s(),
     r()
 
+    // actions boutons visite virtuelle
+
+
     $('div1').on('click', function() {
         $(this).addClass('active');
       });
@@ -1306,4 +1309,12 @@ $(document).ready(function() {
       $('divcpf').on('click', function(e) {
         $('div1').removeClass('active');    
       });
+
+    $('div2').on('click', function() {
+    $(this).addClass('active');
+    });
+      
+    $('divcpf').on('click', function(e) {
+    $('div2').removeClass('active');    
+    });
 });
