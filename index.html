@@ -10,6 +10,16 @@
   <link rel="icon" type="image/png" href="assets/img/AM_trads_droitinv.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script>
+  
+  // Fonction executée lors de l'utilisation du clic droit.
+    $(document).bind("contextmenu",function()
+    {
+    
+    return false;
+    });
+</script>
+
+  <script>
     $(document).ready(function() {
         //Buttons
         var Go, GoodB, BadB;
@@ -26,7 +36,7 @@
         var DescText, Number, Input, InputBox
         InputBox = $("#Input");
         Input = 0;
-        Number = 9;
+        Number =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 9;
         DescText = "Quelle est la fam's du ME 221";
 
         $("#Desc").text(DescText);
@@ -80,7 +90,7 @@
         <div class="Modal">
             <i class="fa fa-times-circle-o fa-5x" aria-hidden="true"></i>
             <h1>C'est incorrect!</h1>
-            <button class="CloseButton" id="BadBtn">Close</button>
+            <button class="CloseButton" id="BadBtn">Fermer</button>
         </div>
     </section>
 </body>
